@@ -27,7 +27,7 @@ export default function App() {
         <header className="sticky top-0 z-20 backdrop-saturate-150 backdrop-blur-md bg-black/60 border-b border-neutral-800">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <Link to="/" className="flex items-center">
-              <img src="public/favicon.png" alt="KO" className="h-12 w-12" />
+              <img src="/favicon.png" alt="KO" className="h-12 w-12" />
             </Link>
             <nav className="hidden sm:flex gap-4 text-sm">
               <button 

@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
     company: "Cedars-Sinai",
     date: "Mar 2025 – Present",
     bannerColor: "#1d2a52",
-    logoUrl: "public/cedars_logo.png",
+    logoUrl: "/cedars_logo.png",
     points: [
       "Built a React Native app with Expo to allow doctors to review and visualize medical device test data.",
       "Developed a FastAPI (Python) backend to integrate microsecond-precise InfluxDB time-series data with test metadata from a MySQL database, enabling researchers to effectively search by subject attributes.",
@@ -33,7 +33,7 @@ export const experiences: Experience[] = [
     company: "UCLA Formula SAE",
     date: "Jun 2025 – Present",
     bannerColor: "#042c2b",
-    logoUrl: "public/bfr_logo.png",
+    logoUrl: "/bfr_logo.png",
     points: [
       "Designing a race car data acquisition system using STM32-based sensors to collect vehicle data in real-time.",
       "Building a computer vision system into vehicle to measure slip angle, reduce costs, and improve performance.",
@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     company: "UCLA Formula SAE",
     date: "Jun 2024 – Jun 2025",
     bannerColor: "#042c2b",
-    logoUrl: "public/bfr_logo.png",
+    logoUrl: "/bfr_logo.png",
     points: [
       "Automated CAN-bus sensor parsing on a Raspberry Pi CM4 using python-can, scripting startup routines to decode DBC messages, stream data into InfluxDB, and log backups to CSV on local memory.",
       "Built and deployed a RF telemetry service in Python to transmit sensor data to an RF receiver with sub-112 ms latency, running automatically on boot for continuous data flow.",
@@ -57,7 +57,7 @@ export const experiences: Experience[] = [
     company: "Be Together Hub",
     date: "Jan 2025 – May 2025",
     bannerColor: "#1d2a52",
-    logoUrl: "public/bth_logo.png",
+    logoUrl: "/bth_logo.png",
     points: [
       "Created web pages using React for a Google-funded nonprofit, reducing UI bug reports by 24%.",
       "Designed responsive UI with Tailwind, ensuring therapy access for 673+ users across web and mobile."
@@ -68,7 +68,7 @@ export const experiences: Experience[] = [
     company: "Bruin Sports Analytics",
     date: "Sep 2024 – Present",
     bannerColor: "#042c2b",
-    logoUrl: "public/bsa_logo.png",
+    logoUrl: "/bsa_logo.png",
     points: [
       "Scripted a HTML/CSS scouting report template for weekly analysis of upcoming tennis matches and opponents, presented directly to the UCLA D1 Tennis Team.",
       "Constructed a pandas-based ETL pipeline to ingest, clean, and normalize raw HTML from 47+ matches, eliminating over 53 hours of manual data acquisition and exporting analysis-ready CSVs for team analysts.",
@@ -92,7 +92,7 @@ export const education: Education[] = [
     degree: "Bachelor of Science in Computer Science",
     years: "2022-2026",
     gpa: "GPA 3.7",
-    logoUrl: "public/ucla_logo.png",
+    logoUrl: "/ucla_logo.png",
     details: [
       "Technical Breadth in Technology Management",
       "Scientific Breadth in Electrical and Computer Engineering", 
@@ -103,7 +103,7 @@ export const education: Education[] = [
     degree: "High School Diploma",
     years: "2019-2023",
     gpa: "GPA 4.9",
-    logoUrl: "public/thhs.png",
+    logoUrl: "/thhs.png",
     details: [
     ]
   }
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     blurb: 'Built a full stack web app enabling UCLA students to post and accept freelance jobs, with secure authentication, user dashboards, and a dynamic leaderboard, supporting 156+ job transactions during testing stages. Engineered secure RESTful APIs and multi-collection data models using Spring Boot, MongoDB, and Maven, implementing user authentication, job endpoints, leaderboard logic, and a job stats tracking system.',
     tags: ['Java', 'Spring Boot', 'React', 'MongoDB'],
     link: 'https://github.com/yourusername/sixxer-app',
-    videoUrl: 'public/sixxer_demo.mp4',
+    videoUrl: '/sixxer_demo.mp4',
     date: 'Mar 2025 – Present'
   },
   {
@@ -138,7 +138,7 @@ export const projects: Project[] = [
     tags: ['Python', 'PyTorch', 'Seaborn'],
     link: 'https://github.com/yourusername/price-predictor',
 
-    imageUrl: 'public/rf_classifier_screenshot.png',
+    imageUrl: '/rf_classifier_screenshot.png',
     date: 'Feb 2025 – Mar 2025'
   },
   {
@@ -147,7 +147,7 @@ export const projects: Project[] = [
     tags: ['Python', 'PyTorch', 'pandas'],
     link: 'https://github.com/yourusername/rf-classifier',
 
-    imageUrl: 'public/price_predictor_screenshot.png',
+    imageUrl: '/price_predictor_screenshot.png',
     date: 'Dec 2024 – Mar 2025'
   }
 ]
