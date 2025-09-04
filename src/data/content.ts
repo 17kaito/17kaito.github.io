@@ -90,7 +90,7 @@ export const education: Education[] = [
   {
     institution: "University of California, Los Angeles (UCLA)",
     degree: "Bachelor of Science in Computer Science",
-    years: "2022-2026",
+    years: "2023-2027",
     gpa: "GPA 3.7",
     logoUrl: "/ucla_logo.png",
     details: [
